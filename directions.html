@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Directions</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Merienda+One' rel='stylesheet' type='text/css'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="gaddafi.css">
+  </head>
+  <body>
+    <div class="header">
+      <div id="l_pic">
+        <a href="home.html"><img src="images/gaddafi.jpg" height=144px width=150px align="left"></a>
+      </div>
+      <div id="conf_name">
+        <h1 align="center" color="#990000" style="font-size: 80px;"> DIRECTIONS <h1>
+      </div>
+      <div id="r_pic">
+        <a href="pan-africanism.html"><img src="images/pa6.jpg" height=144px width=150px align="right"></a>
+      </div>
+
+    </div>
+
+    <div class="body">
+      <div class="categories">
+        <div class="padded_blocks category" onclick="location.href='home.html';">
+          <h2><a href="home.html">HOME</a></h2>
+        </div>
+        <div class="padded_blocks category" onclick="location.href='pan-africanism.html';">
+          <h2><a href="pan-africanism.html">PAN-AFRICAN</a></h2>
+        </div>
+        <div class="padded_blocks category" onclick="location.href='gaddafi.html';">
+          <h2><a href="gaddafi.html">GADDAFI</a></h2>
+        </div>
+        <div class="padded_blocks category" onclick="location.href='spaces.html';">
+          <h2><a href="spaces.html">SPACES</a></h2>
+        </div>
+        <div class="padded_blocks category" onclick="location.href='calendar.html';">
+          <h2><a href="calendar.html">CALENDAR</a></h2>
+        </div>
+        <div class="padded_blocks category" onclick="location.href='to_do.html';">
+          <h2><a href="to_do.html">TO DO</a></h2>
+        </div>
+        <div class="padded_blocks category" onclick="location.href='directions.html';">
+          <h2><a href="directions.html">DIRECTIONS</a></h2>
+        </div>
+      </div>
+
+      <div class="contents">
+        <div id="map" class="padded_blocks">
+          <h1 align="center">Where in the World is GPACC??</h1>
+          <br>
+        </div>
+        <!--9.015752, 38.765004  -->
+        <script>
+          function initMap() {
+            var uluru = {lat: 9.015752, lng: 38.765004};
+            var map = new google.maps.Map(document.getElementById('map'), {
+              zoom: 4,
+              center: uluru
+            });
+            var marker = new google.maps.Marker({
+              position: uluru,
+              map: map
+            });
+          }
+        </script>
+        <script async defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAjfo5cboXNx37sOG4BkMOIw0YDK0_v2QQ&callback=initMap">
+        </script>
+
+        <div class="padded_blocks center_panel">
+          <h1>Parking Guidelines:</h1>
+          <p>
+            <ul>
+              <li> Yellow Lines: Distinguished Visitors (permit required) </li>
+              <li> Green Lines: Disabled, Pregnant Women </li>
+              <li> Red Lines: Security, Facilities and Deliveries </li>
+              <li> Black Lines: General Parking</li>
+            </ul>
+            <br>
+            <h3>The Parking lot is monitored by CCTV cameras </h3>
+            <h3>Parking fine: $300!!</h3>
+          </p>
+        </div>
+
+      </div> <!--end of content -->
+
+      <div class="padded_blocks side_panel">
+        <div id="side_panel_1" class="padded_blocks">
+          <script async defer id='20171013213129979' src='https://widgets.worldtimeserver.com/Public.ashx?rid=20171013213129979&theme=Analog&action=clock&wtsid=ET&hex=1d6603&city=Addis Ababa&size=small'></script>
+          <!-- weather widget start --><a target="_blank" href="http://www.booked.net/weather/addis-ababa-w639664"><img src="https://w.bookcdn.com/weather/picture/4_w639664_1_1_1f4a16_250_ffffff_333333_08488D_1_ffffff_333333_0_6.png?scode=124&domid=w209&anc_id=3000"  alt="booked.net"/></a><!-- weather widget end -->
+        </div>
+        <div id="side_panel_2" class="padded_blocks">
+          <h1>GPACC Address: </h1>
+          <p>
+            <b> Gaddafi Pan-African Conference Center </b> <br>
+             Charlyman Ave <br>
+             Adis Ababa <br>
+             Ethiopia <br>
+             Email: reception@gpacc.org <br>
+             Tel: 251-11-544-5000 <br>
+             Fax: 251-11-551 4416 (Addis Ababa) <br>
+          </p>
+        </div>
+
+
+        </div>
+
+      </div> <!--end of side panel -->
+
+    </div> <!-- end of body -->
+
+    <div class="padded_blocks foot_spacer">
+    </div>
+
+    <div class="padded_blocks footer">
+      <div id="f1">
+        <ul>
+          <marquee behavior="scroll" direction="left"><li class="footer_paragraph"> "To force a human being to learn according to a set curriculum is a dictatorial act." ~ Gaddafi </li></marquee>
+        </ul>
+      </div>
+      <div id="f2">
+        <p style="font-size:15px;color: #990000;family-family:Times;font-style:italic">
+          Gaddafi Pan-African Conference Center, Charlyman Ave, Adis Ababa, Ethiopia  |  Email: reception@gpacc.org  |  Tel: 251-11-544-5000  |  Fax: 251-11-551 4416 (Addis Ababa)
+        </p>
+      </div>
+    </div> <!-- end of footer -->
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="gaddafi.js"></script>
+  </body>
+</html>
+
+<!--
+http://getbootstrap.com/getting-started/>
+-->
