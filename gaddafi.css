@@ -9,6 +9,16 @@
   position: relative;
   border-top: 5px solid black;
 }
+#pan_africanism_body {
+  height: 1100px;
+}
+#about_pan_africanism {
+  height: 550px;
+}
+.slide_pic_dimensions {
+  width: 100%;
+  max-height: 450px;
+}
 .categories {
   background-image: url('images/bg16.jpg');
   width: 20%;
@@ -85,7 +95,7 @@ h3 {
   font-family: Impact, Charcoal, sans-serif;
 }
 h4 {
-  color:yellow;
+  color:#cccc08;
   font-family: Palatino, Palatino Linotype, Serif;
   font-weight: bold;
   font-style: italic;
@@ -164,12 +174,38 @@ a:hover {
   float:left;
 }
 #todo_body {
-  height: 5400px;
+  height: 5000px;
 }
 #hotel_comparison {
   color: black;
   font-style: oblique;
   font: 15px;
+}
+#spaces_description {
+  color: #990000;
+  font-style: oblique;
+  font-size: 17px;
+}
+#gaddafi_infor {
+  height: 950px;
+}
+#gaddafi_body{
+  height: 1500px;
+}
+.home_plaque_div {
+  height: 250px;
+}
+.home_plaque {
+  color: #990000;
+  font-weight: bold;
+  font-family: 'Tangerine',serif;
+  font-size: 40px;
+}
+.side_panel_bg {
+  background-image: url('images/bg16.jpg');
+}
+.yellow_text {
+  color:#cccc08;
 }
 .padded_blocks {
   display:block;
