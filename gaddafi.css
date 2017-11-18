@@ -9,6 +9,9 @@
   position: relative;
   border-top: 5px solid black;
 }
+.body_container {
+  width: 1252px;
+}
 #pan_africanism_body {
   height: 1100px;
 }
@@ -187,13 +190,14 @@ a:hover {
   font-size: 17px;
 }
 #gaddafi_infor {
-  height: 950px;
+  height: 1050px;
 }
 #gaddafi_body{
-  height: 1500px;
+  height: 1600px;
 }
 .home_plaque_div {
-  height: 250px;
+  height: 150px;
+  overflow:auto;
 }
 .home_plaque {
   color: #990000;
